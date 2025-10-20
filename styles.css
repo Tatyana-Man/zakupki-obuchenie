@@ -1,0 +1,257 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f0f9; /* Светло-фиолетовый фон */
+            color: #2c3e50; /* Темно-серый текст */
+        }
+        header {
+            background-color: #6a4c93; /* Темно-фиолетовый */
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 10px;
+            padding: 10px;
+            font-size: 2em;
+            color: #ffffff; /* Белый текст */
+        }
+         header p {
+            margin: 5px;
+            padding: 5px;
+            font-size: 1em;
+            color: #ffffff; /* Белый текст */
+        }
+        .school-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+        nav {
+            margin-top: 10px;
+            background-color: #513a70; /* Темно-темно-фиолетовый */
+            text-align: center;
+            padding: 15px;
+        }
+        nav a {
+            background-color: #9c6ade; /* Средне-фиолетовый */
+            color: #ffffff; /* Белый текст */
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px; /* Округлые края */
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #f3f0f9; /* Светло-фиолетовый при наведении */
+            text-decoration: none;
+            color: #9c6ade; /* Средне-фиолетовый текст */
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff; /* Белый фон */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #9c6ade; /* Средне-фиолетовый */
+            border-left: 5px solid #9c6ade; /* Полоса слева */
+            padding-left: 10px;
+        }
+
+        ul li,
+        ol li {
+    margin-bottom: 6px;   /* расстояние между пунктами */
+    line-height: 1.5;     /* комфортная высота строки */
+}
+
+        .course {
+            padding: 15px;
+            margin: 15px 0;
+            background: #f8f8f8; /* Светло-серый */
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .course h3 {
+            margin: 0;
+            color: #9c6ade; /* Средне-фиолетовый */
+        }
+        .course p {
+            margin: 10px 0 10px;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #6a4c93;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #9c6ade;
+            text-decoration: none;
+            color: #ffffff; /* Темно-фиолетовый текст */
+        }
+        a {
+            color: #9c6ade; /* Средне-фиолетовый */
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #6a4c93; /* Темно-фиолетовый при наведении */
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 10px;
+            background-color: #6a4c93; /* Темно-фиолетовый */
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #ffffff; /* Белый текст */
+        }
+        footer a {
+            color: #e9d8fd; /* Светло-фиолетовый */
+            text-decoration: underline;
+        }
+        footer a:hover {
+            color: #d0d0d0; /* Темнее при наведении */
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            main {
+                margin: 10px; 
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 1.6em;
+            }
+            nav a {
+                font-size: 1em;
+                margin: 5px;
+                padding: 6px 12px;
+            }
+        }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 14px;
+      text-align: left;
+      vertical-align: top;
+    }
+    thead th {
+      background-color: #6a4c93;
+      color: white;
+      font-size: 16px;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: #f4f1f9;
+    }
+    tbody tr:hover {
+      background-color: #ece3f5;
+    }
+    td a {
+      color: #6a4c93;
+      text-decoration: none;
+    }
+    td a:hover {
+      text-decoration: underline;
+    }
+    .btn-link {
+      display: inline-block;
+      padding: 6px 14px;
+      background-color: #6a4c93;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+    .btn-link:hover {
+      background-color: #563d82;
+    }
+
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .responsive-table thead {
+    background: #f2f2f2;
+  }
+
+  .responsive-table th,
+  .responsive-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+
+  /* Мобильный стиль */
+  @media (max-width: 768px) {
+    .responsive-table,
+    .responsive-table thead,
+    .responsive-table tbody,
+    .responsive-table th,
+    .responsive-table td,
+    .responsive-table tr {
+      display: block;
+    }
+
+    .responsive-table thead {
+      display: none;
+    }
+
+
+   .responsive-table tr {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 12px;
+      background: #fff;
+    }
+
+
+    .responsive-table td {
+      border-top: 1px solid #ccc;
+      position: relative;
+      padding-left: 5%;
+      white-space: normal;
+    }
+          
+
+   .responsive-table td::before {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: calc(50% - 24px);
+      padding-right: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+      content: attr(data-label);
+    }
+
+          
+  }
